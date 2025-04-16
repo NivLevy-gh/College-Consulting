@@ -1,0 +1,39 @@
+html {
+    color: white
+}
+
+body {
+    background-color: black;
+    width: 80%;
+    margin: auto;
+}
+
+.nav {
+    background-color: red;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    gap: 10%;
+}
+
+.about {
+    border-radius: 5px;
+    border: solid 2px grey;
+    height: 30px;
+    width: 100px;
+}
+
+.packages {
+    border-radius: 5px;
+    border: solid 2px grey;
+    height: 30px;
+    width: 100px;
+}
+
+.whatwedo {
+    border-radius: 5px;
+    border: solid 2px grey;
+    height: 30px;
+    width: 100px;
+}
