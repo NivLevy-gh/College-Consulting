@@ -7,6 +7,7 @@ body {
     background-color: black;
     width: 80%;
     margin: auto;
+    overflow: hidden;
 }
 
 .nav {
@@ -37,10 +38,10 @@ body {
 }
 
 .motto {
-    min-height: 80vh;
+    min-height: 70vh;
     width: 100%;
     font-size: 150px;
-    margin-top: 100px;
+    margin-top: 10vh;
 }
 
 .start {
@@ -55,7 +56,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     transition: transform 0.3s ease; 
-    
+    margin-top: 0;
 }
 
 .start:hover {
@@ -66,3 +67,6 @@ body {
 .landing {
     height: 100vh;
 }
+
+
+  
