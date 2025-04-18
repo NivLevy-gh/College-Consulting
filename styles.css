@@ -188,12 +188,13 @@ body {
 }
 
 .pack {
-    height: 500px;
+    min-height: 500px;
     display: flex;
     gap: 10px;
     justify-content: center;
     color: black;
     flex-wrap: wrap;
+
 }
 
 .commonapp, .supps, .ecs, .advice {
@@ -246,4 +247,33 @@ body {
 .benbutton:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease; 
+}
+
+.questions {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 40px;
+   margin-left: 10px;
+}
+
+.anyqs {
+    margin-bottom: 0;
+}
+
+.idk {
+    display: flex;
+    margin-left: 220px;
+}
+
+.v2 {
+    margin-top: 110px;
+    margin-right: 0;
 }
