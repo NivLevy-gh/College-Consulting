@@ -93,7 +93,7 @@ body {
 }
 
 .Andy, .Niv {
-    height: 200px;
+    height: 800px;
     width: 500px;
     display: flex;
     padding: 20px;
@@ -247,7 +247,6 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-  
     transition: transform 0.3s ease; 
 }
 
@@ -290,7 +289,15 @@ a {
     text-decoration: none; 
   }
   
-  html {
+html {
     scroll-behavior: smooth;
-  }
+}
+
+.experiences {
+    background-color: purple;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
   
