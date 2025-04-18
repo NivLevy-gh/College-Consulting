@@ -38,10 +38,12 @@ body {
 }
 
 .motto {
-    min-height: 70vh;
+    min-height: 60vh;
     width: 100%;
     font-size: 150px;
     margin-top: 10vh;
+    padding-top: 150px;
+    
 }
 
 .brain {
@@ -81,10 +83,10 @@ body {
 }
 
 .profiles {
-    display: flex;
-    margin-top: 150px;
+    display: flex; 
     width: 70%;
     margin: auto;
+    margin-top: 50px;
 }
 
 .Andy, .Niv {
@@ -127,15 +129,73 @@ body {
     100% { transform: rotate(0deg); }
   }
 
-  .wave {
+.wave {
     display: inline-block;
     transform-origin: 70% 70%; /* pivot around the wrist */
     animation: wave-animation 2s infinite;
   }
 
-.who {
+.message {
+    text-align: center;
+    min-height: 200px;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    font-size: 40px;
-    margin-bottom: 60px;
+    flex-direction: column;
+    align-items: center;
+    
 }
+
+.covered {
+    font-size: 30px;
+}
+
+.qb {
+    width:28px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.ca {
+    width:25px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.coa {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.cacolor {
+    background: linear-gradient(to right, hsl(205, 100%, 50%), #eefaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.coacolor {
+    background: linear-gradient(to right, hsl(205, 100%, 50%), #fa3a3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qbcolor {
+    background: linear-gradient(to right, hsl(0, 0%, 36%), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pack {
+    height: 500px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.commonapp, .supps, .ecs, .advice {
+    width: 300px;
+    min-height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
