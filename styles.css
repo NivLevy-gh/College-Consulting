@@ -83,24 +83,31 @@ body {
 }
 
 .profiles {
-    display: flex; 
-    width: 70%;
-    margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex; 
     flex-wrap: wrap;
+    justify-content: center; 
+    gap: 145px;
+    
 }
 
 .Andy, .Niv {
     height: 200px;
-    min-width: 50%;
+    width: 500px;
     display: flex;
-    justify-content: center;
-    
-    
+    padding: 20px;
 }
 
 .Andy {
-    margin-right: auto; 
+
+    border: 2px solid red;
+    border-radius: 10px
+}
+
+.Niv {
+    border: 2px solid orange;
+    border-radius: 10px
 }
 
 .portrait {
@@ -279,7 +286,11 @@ body {
 }
 
 a {
-    color: inherit; /* same as parent */
-    text-decoration: none; /* remove underline */
+    color: inherit; 
+    text-decoration: none; 
+  }
+  
+  html {
+    scroll-behavior: smooth;
   }
   
