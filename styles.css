@@ -307,10 +307,10 @@ body {
 
 
 .arrow {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin-bottom: 40px;
-   margin-left: 10px;
+    margin-left: 10px;
 }
 
 
@@ -326,8 +326,9 @@ body {
 
 
 .v2 {
-    margin-top: 110px;
+    margin-top: 65px;
     margin-right: 0;
+    margin-bottom: 50px;
 }
 
 
@@ -392,8 +393,8 @@ html {
     width: 90%;
     min-height: 550px; 
     margin: auto;
-    margin-bottom: 200px;
-    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
     padding: 20px;
     border: 2px solid white;
     border-radius: 10px;
@@ -405,4 +406,9 @@ html {
 
 .v3 {
     margin-right: auto;
+}
+
+.packtitle {
+   text-align: center;
+   font-size: 40px;
 }
