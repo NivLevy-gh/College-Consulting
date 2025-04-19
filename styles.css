@@ -1,14 +1,17 @@
+
 html {
     font-family: 'outfit';
     color:white;
 }
 
+
 body {
     background-color: black;
     width: 90%;
     margin: auto;
-  
+ 
 }
+
 
 .nav {
     margin: auto;
@@ -18,24 +21,28 @@ body {
     margin-top: 20px;
 }
 
+
 .packages, .about, .whatwedo {
     border-radius: 5px;
     height: 30px;
     min-width: 100px;
     display: flex;              
-    align-items: center;       
+    align-items: center;      
     justify-content: center;
      
 }
+
 
 .navb {
     transition: transform 0.3s ease;
 }
 
+
 .navb:hover {
     transform: scale(1.1);
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
+
 
 .motto {
     min-height: 60vh;
@@ -43,8 +50,9 @@ body {
     font-size: 150px;
    
     padding-top: 130px;
-    
+   
 }
+
 
 .brain {
     background: linear-gradient(to right, hsl(39, 100%, 50%), #ffe0b2);
@@ -52,11 +60,13 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+
 .mission {
     background: linear-gradient(to right, #ff0000, #fe7b7b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .start {
     width: 120px;
@@ -69,46 +79,60 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+
 
 }
+
 
 .start:hover {
     transform: scale(1.1);
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
+
 
 .landing {
     min-height: 100vh;
 }
 
+
 .profiles {
     margin-top: 50px;
     margin-bottom: 50px;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     gap: 145px;
-    
+   
 }
+
+
+.Andybox, .Nivbox {
+    display:flex;
+}
+
 
 .Andy, .Niv {
     height: 800px;
     width: 500px;
-    display: flex;
+   
     padding: 20px;
 }
 
+
 .Andy {
+
 
     border: 2px solid red;
     border-radius: 10px
 }
 
+
 .Niv {
     border: 2px solid orange;
     border-radius: 10px
 }
+
 
 .portrait {
     width: 100px;
@@ -116,16 +140,19 @@ body {
     border-radius: 10px;
 }
 
+
 .heading {
     padding-left: 20px;
     font-size: 30px;
     height: 100px;
-  
+ 
 }
+
 
 .andydesc {
     font-size: 15px;
 }
+
 
 @keyframes wave-animation {
     0% { transform: rotate(0deg); }
@@ -138,11 +165,13 @@ body {
     100% { transform: rotate(0deg); }
   }
 
+
 .wave {
     display: inline-block;
     transform-origin: 70% 70%; /* pivot around the wrist */
     animation: wave-animation 2s infinite;
   }
+
 
 .message {
     text-align: center;
@@ -151,12 +180,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+   
 }
+
 
 .covered {
     font-size: 30px;
 }
+
 
 .qb {
     width:28px;
@@ -164,11 +195,13 @@ body {
     border-radius: 10px;
 }
 
+
 .ca {
     width:25px;
     height: 25px;
     border-radius: 10px;
 }
+
 
 .coa {
     width: 25px;
@@ -176,11 +209,13 @@ body {
     border-radius: 10px;
 }
 
+
 .cacolor {
     background: linear-gradient(to right, hsl(205, 100%, 50%), #eefaff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .coacolor {
     background: linear-gradient(to right, hsl(205, 100%, 50%), #fa3a3a);
@@ -188,11 +223,13 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+
 .qbcolor {
     background: linear-gradient(to right, hsl(0, 0%, 36%), #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .pack {
     min-height: 500px;
@@ -202,7 +239,9 @@ body {
     color: black;
     flex-wrap: wrap;
 
+
 }
+
 
 .commonapp, .supps, .ecs, .advice {
     width: 300px;
@@ -212,9 +251,11 @@ body {
     text-align: center;
 }
 
+
 .price {
     font-size: 50px;
 }
+
 
 .benefits {
     display: flex;
@@ -222,6 +263,7 @@ body {
     gap: 15px;
    
 }
+
 
 .benefit-item {
     display: flex;
@@ -231,10 +273,12 @@ body {
     border-radius: 8px;
 }
 
+
 .check {
     width: 20px;
     height: 20px;
 }
+
 
 .benbutton {
     width: 100px;
@@ -247,13 +291,15 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
+
 
 .benbutton:hover {
     transform: scale(1.1);
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
+
 
 .questions {
     display: flex;
@@ -263,6 +309,7 @@ body {
     align-items: center;
 }
 
+
 .arrow {
     height: 150px;
     width: 150px;
@@ -270,34 +317,49 @@ body {
    margin-left: 10px;
 }
 
+
 .anyqs {
     margin-bottom: 0;
 }
+
 
 .idk {
     display: flex;
     margin-left: 220px;
 }
 
+
 .v2 {
     margin-top: 110px;
     margin-right: 0;
 }
 
+
 a {
-    color: inherit; 
-    text-decoration: none; 
+    color: inherit;
+    text-decoration: none;
   }
-  
+ 
 html {
     scroll-behavior: smooth;
 }
 
+
 .experiences {
-    background-color: purple;
     height: 400px;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
-  
+ 
+.nivec {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.position {
+    font-size: 10px;
+    color: grey;
+}
+
