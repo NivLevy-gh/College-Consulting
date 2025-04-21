@@ -450,11 +450,14 @@ html {
 
 
 .v2 {
-    margin-top: 30px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
     margin-bottom: 50px;
-}
-
+    display: flex;
+    justify-content: center;
+  }
+  
 }
 
 html, body {
