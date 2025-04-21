@@ -425,6 +425,16 @@ html {
     body {
         width: 100%;
     }
+
+    .nivec {
+        font-size: 12px;
+    }
+    
+    
+    .position {
+        font-size: 6px;
+
+    }
 }
 
 html, body {
