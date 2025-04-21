@@ -415,6 +415,10 @@ html {
 @media only screen and (device-width: 430px) {
     .motto {
         font-size: 30px;
-        
+    }
+
+    .Andy, .Niv {
+
+        width: 450px;
     }
 }
