@@ -412,7 +412,7 @@ html {
    font-size: 40px;
 }
 
-@media only screen and (device-width: 430px) {
+@media (max-width: 500px) {
     .motto {
         font-size: 30px;
     }
