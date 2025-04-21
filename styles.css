@@ -474,6 +474,7 @@ html {
     .packages, .about, .whatwedo {
         border-radius: 5px;
         height: 30px;
+        width: 60px;
         display: flex;              
         align-items: center;      
         justify-content: center;
