@@ -461,6 +461,10 @@ html {
         justify-content: center;
         margin: auto;
     }
+
+    .why {
+        width: 80%;
+    }
 }
   
   
