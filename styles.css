@@ -48,8 +48,7 @@ body {
     min-height: 60vh;
     width: 100%;
     font-size: 150px;
-   
-    padding-top: 130px;
+   padding-top: 130px;
    
 }
 
@@ -411,4 +410,11 @@ html {
 .packtitle {
    text-align: center;
    font-size: 40px;
+}
+
+@media only screen and (device-width: 430px) {
+    .motto {
+        font-size: 80px;
+        
+    }
 }
