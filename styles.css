@@ -441,6 +441,13 @@ html {
     font-size: 13px;
 }
 
+
+.arrow {
+    height: 0px;
+    width: 0px;
+
+}
+
 }
 
 html, body {
