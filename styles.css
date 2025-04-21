@@ -454,7 +454,7 @@ html {
         justify-content: center;
         align-items: center;
         transition: transform 0.3s ease;
-    
+        margin-top: 10px;
     }
     .idk {
         display: flex;
