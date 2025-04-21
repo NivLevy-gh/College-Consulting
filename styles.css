@@ -465,6 +465,11 @@ html {
     .why {
         width: 80%;
     }
+
+    .nav {
+        gap: 5%;
+    }
+
 }
   
   
@@ -472,5 +477,4 @@ html {
 
 html, body {
     overflow-x: hidden;
-  }
-
+}
