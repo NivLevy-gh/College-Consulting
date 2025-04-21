@@ -468,7 +468,10 @@ html {
 
     .nav {
         gap: 5%;
+        flex-direction: column;
     }
+
+
 
 }
   
