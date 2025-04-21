@@ -411,7 +411,7 @@ html {
    font-size: 40px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .motto {
         font-size: 60px;
         text-align: center;
@@ -467,10 +467,13 @@ html {
     }
 
     .nav {
-        gap: 5%;
-        flex-direction: column;
+        gap: 1%;
     }
 
+    .navigation {
+        border: 2px solid white;
+        border-radius: 10px;
+    }
 
 
 }
