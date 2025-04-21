@@ -414,11 +414,11 @@ html {
 
 @media (max-width: 500px) {
     .motto {
-        font-size: 40px;
+        font-size: 70px;
     }
 
     .Andy, .Niv {
 
-        width: 550px;
+        width: 80px;
     }
 }
