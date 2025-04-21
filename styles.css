@@ -29,7 +29,6 @@ body {
     display: flex;              
     align-items: center;      
     justify-content: center;
-    border: 2px solid white;
      
 }
 
@@ -471,16 +470,7 @@ html {
         gap: 1%;
     }
 
-    .packages, .about, .whatwedo {
-        border-radius: 5px;
-        height: 30px;
-        width: 60px;
-        display: flex;              
-        align-items: center;      
-        justify-content: center;
-        border: 2px solid rgb(110, 110, 110);
-         
-    }
+
 
 
 }
